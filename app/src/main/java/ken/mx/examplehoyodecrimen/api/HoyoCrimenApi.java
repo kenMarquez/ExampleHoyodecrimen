@@ -15,6 +15,9 @@ public interface HoyoCrimenApi {
     @GET("/api/v1/sectores/geojson")
     Call<SectoresResponse> getSectores();
 
-    @GET("/api/v1/sectores/geojson")
+    @GET("/api/v1/municipios/geojson")
     Call<ResponseBody> getSectores2();
+
+//    @GET("/api/v1/sectores/geojson")
+//    Call<ResponseBody> getSectores2();
 }
